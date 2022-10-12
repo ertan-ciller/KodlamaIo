@@ -42,6 +42,7 @@ public class Main {
 		System.out.println("************************************");
 
 		System.out.println("deneme 2");
+		System.out.println("Nazlıcanı seviyorum :) ");
 		
 		CategoriesManager categoryManager = new CategoriesManager(new JdbcCategoryDao(),logger);
 		categoryManager.add(category);
