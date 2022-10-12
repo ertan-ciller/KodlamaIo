@@ -41,8 +41,7 @@ public class Main {
 		courseManager.add(course2);
 		System.out.println("************************************");
 
-		System.out.println("deneme 2");
-		System.out.println("Nazlıcanı seviyorum :) ");
+		
 		
 		CategoriesManager categoryManager = new CategoriesManager(new JdbcCategoryDao(),logger);
 		categoryManager.add(category);
